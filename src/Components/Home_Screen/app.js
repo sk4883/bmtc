@@ -8,11 +8,11 @@ export default class App extends Component{
 		};
 	}
 
-render() {
+	render() {
 		return (
 			     
-		<div className="w3-row">
-			<div className="Layout w3-col s8 m10 l8" style={{marginLeft: "auto", marginRight: "auto", float: "none"}}>
+			<div className="w3-row">
+				<div className="Layout w3-col s8 m10 l8" style={{marginLeft: "auto", marginRight: "auto", float: "none"}}>
 			     <div className="Button_Position">
 			      <Link to="Search_Buses">
 			        <button className="w3-button w3-blue w3-hovor-grey style"> Search Buses </button>
